@@ -10,16 +10,9 @@ body {
 header {
     text-align: center;
     padding: 50px 0;
-    background-color: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-header img {
-    width: 80%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 50%;
-}
 
 main {
     padding: 20px;
@@ -39,9 +32,9 @@ footer {
 /* Estilos específicos para el reloj */
 #reloj {
     text-align: center;
-    background-color: #fff;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color:rgba(250, 235, 215, 0.281);
 }
 
 #countdown {
@@ -53,14 +46,18 @@ footer {
 @media (max-width: 768px) {
     header {
         padding: 30px 0;
-    }
-
-    header img {
-        width: 90%;
+       margin-bottom: 50%; 
     }
 
     main {
         padding: 10px;
+    }
+    body{
+        background-image: url("foto-destacada.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 }
 
