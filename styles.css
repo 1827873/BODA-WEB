@@ -53,11 +53,10 @@ footer {
     }
     body{
         background-image: url("foto-destacada.jpg");
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        transition: background-color 0.5s ease;
 
     }
 }
