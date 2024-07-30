@@ -29,3 +29,19 @@
     const interval = setInterval(updateCountdown, 1000);
 
 
+
+document.addEventListener("DOMContentLoaded", function() {
+    const img = new Image();
+    img.src = 'foto-destacada.jpg';
+
+    img.onload = function() {
+        const vibrant = new Vibrant(img);
+        const swatches = vibrant.swatches();
+        if (swatches.Vibrant) {
+            document.body.style.backgroundColor = swatches.Vibrant.getHex();
+            document.body.style.backgroundBlendMode = 'multiply';
+        }
+    };
+});
+
+
