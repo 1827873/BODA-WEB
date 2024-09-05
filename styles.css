@@ -48,7 +48,7 @@ footer {
         padding: 30px 0;
 
        background-image: url("foto-destacada.jpg");
-       height: 640px; /* Ajusta la altura según el tamaño de tu imagen */
+       height: 2720px; /* Ajusta la altura según el tamaño de tu imagen */
        background-size: contain; /* Ajusta la imagen para que cubra lo necesario según la altura */
        background-repeat: no-repeat; /* Evita que la imagen se repita */
        text-align: center; /* Centra el texto en el header */
