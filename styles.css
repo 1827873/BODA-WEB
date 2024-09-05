@@ -41,12 +41,10 @@ footer {
     font-weight: bold;
 }
 
-/* Mobile styles */
-@media (max-width: 1020px) {
-    header {
 
-    width: 100vw;
-   }
+/* Mobile styles */
+/*
+@media (max-width: 1020px) {
 
    .container{
     width: 100vw;
@@ -59,6 +57,31 @@ footer {
     main {
         padding: 10px;
     }
+
+*/
+
+
+/* Mobile styles */
+@media (max-width: 648px) {
+    .container {
+        height: 100vh; /* Ajusta la altura al 100% de la vista del navegador */
+        display: flex; /* Para centrar el contenido, si es necesario */
+        justify-content: center; /* Opcional: centrar horizontalmente */
+        align-items: center; /* Opcional: centrar verticalmente */
+    }
+ 
+    img {
+        height: 100%; /* Ajusta la imagen al 100% de la altura del contenedor */
+        width: auto; /* Ajusta el ancho proporcionalmente para mantener la relación de aspecto */
+        object-fit: cover; /* Asegúrate de cubrir el área sin distorsionar la imagen */
+    }
+ 
+    main {
+        padding: 10px;
+    }
+ }
+
+ 
 
 
 /* Desktop styles */
