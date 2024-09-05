@@ -5,7 +5,7 @@
     // Función para actualizar el reloj
     function updateCountdown() {
         const countdownElement = document.getElementById('countdown');
-        const weddingDate = new Date('April 23, 2025 00:00:00').getTime();
+        const weddingDate = new Date('July 19, 2025 07:00:00').getTime();
         const now = new Date().getTime();
         const timeLeft = weddingDate - now;
 
